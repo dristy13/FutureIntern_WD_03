@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+   <div id="container" onclick="calTemp(); return false"> <div id="box1">
+   <div id="temp1"> Enter Temperature <br> <br><hr></div>
+   <div id="deg">Degree
+    <br> <input type="number" id="temp" value="0"> <br>
+    <div id="choose"> <select name="Temperature" id="select">
+        <option value="cel" id="celsius"> &#176;celsius</option>
+        <option value="fah" id="fahrenheit"> &#176;fahrenheit</option>
+    </select>
+</div>
+   <button id="button">Convert</button>
+   </div>
+   </div>
+   <div id="result"></div>
+   </div>
+  <script src="script.js"></script>
+</body>
+</html>
